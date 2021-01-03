@@ -1,6 +1,6 @@
 from collections import Counter
 from typing import List
-from LinearArgebra.vector import sum_of_squares
+from LinearAlgebra.vector import sum_of_squares
 import matplotlib.pyplot as plt
 
 num_friends = [100.0, 49, 41, 40, 25, 21, 21, 19, 19, 18, 18, 16, 15, 15, 15, 15, 14, 14, 13, 13, 13, 13, 12, 12, 11,
@@ -210,7 +210,7 @@ assert inter_quartile_range(num_friends) == 6
 ====================================================================
 """
 
-from LinearArgebra.vector import dot
+from LinearAlgebra.vector import dot
 
 """
 "사용자가 사이트에서 보내는 시간과 사용자의 친구 수 사이에 연관성이 있다" 라는 가설을 검증해보자.
